@@ -15,8 +15,8 @@
 
 
 /*! modal */
-
-.home-modal {
+/*? modals */
+/* .home-modal {
 }
 .modal-home{
 	margin-top: 100px;
@@ -64,8 +64,110 @@
 	border-radius: 10px;
 	overflow: hidden;
 	padding: 10px 15px;
+} */
+/*? end modals */
+
+
+
+
+.page-home-form {
 }
-.modal-home-text {
+.form-home {
+}
+.form-home-container {
 }
 
+.form-home-button-open {
+	font-size: 24px;
+	background-color: orange;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 10px 15px;
+}
+.form-home-backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 1;
+}
+.form-home-backdrop.is-hidden {
+	opacity: 0;
+	pointer-events: none;
+}
+/* .no-scroll {
+	overflow: hidden;
+} */
+
+.form-home-modal {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 560px;
+	min-height: 300px;
+	background-color: #fff;
+	border-radius: 30px;
+	padding: 30px 45px;
+}
+.form-home-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.form-home-title {
+	color: #3e3e3e;
+	font-size: 40px;
+	line-height: 130%;
+}
+.form-home-button-close {
+	font-size: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+	background-color: #ccc;
+	width: 50px;
+	height: 50px;
+}
+.form-home-form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.form-home-inputs {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+.form-home-input {
+	border-radius: 10px;
+border: 1px solid #DCDCDC;
+background: #FFF;
+padding: 30px 45px;
+}
+.form-home-textarea {
+	border-radius: 10px;
+	border: 1px solid #dcdcdc;
+	padding: 30px 45px;
+	min-height: 189px;
+}
+.form-home-input,
+.form-home-textarea::placeholder {
+	color: #2D2D2D;
+	font-size: 18px;
+}
+.form-home-button {
+	align-self: flex-start;
+padding: 30px 50px;
+background-color: #fad34f;
+color: #fff;
+font-size: 18px;
+border-radius: 50px;
+overflow: hidden;
+}
 /*! Footer */
